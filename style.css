@@ -1,0 +1,96 @@
+﻿body 
+{ 
+background: url(img/fon.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover; 
+} 
+
+h1
+{
+font-size: 5em;
+}
+.osnova 
+{
+width: 930px;
+margin: 25px auto;
+
+padding: 5px;
+}
+.zagolovok
+{
+color: white;
+text-align: center;
+}
+
+.shrift
+{
+font-size: 35px;
+}
+
+.menu
+{
+height: 50px;
+
+}
+
+.probel
+{
+height: 5px;
+}
+.leftmenu
+{
+background: #476b44;
+margin: 0 0 5px 0;	
+clear: left;
+width: 290px;
+float: left;
+padding: 5px;
+color: white;
+}
+
+.rightmenu
+{
+width: 605px;
+float: left;
+margin: 0 0 5px 5px;
+background: #476b44;
+padding: 5px;
+color: white;
+}
+.bot
+{
+
+height: 40px;
+background: #476b44;
+clear: left;
+list-style: none;
+}
+
+p
+{
+text-align: center;
+}
+p.privet
+{
+text-align:center;
+font-size: 35px;
+color: white;
+}
+.vipl
+{
+display: block;
+height: 46;
+background: green;
+padding: 2px;
+list-style: none;
+}
+.text
+{
+text-align: justify;
+}
+
+.text1
+{
+text-align: center;
+}

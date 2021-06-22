@@ -1,0 +1,51 @@
+﻿#Left 
+{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+}
+#Left li 
+{
+	padding-top: 10px;
+	float: left;
+	height: 40px;
+	text-align: center;
+	background: url(img/Кнопка.png) no-repeat;
+	position: relative;
+	margin-right: 5px; 
+	}
+#Left li ul 
+{
+
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 150px;
+	display: none;
+	position: relative;
+}
+#Left li ul li 
+{
+	padding-top: 2px;
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	background: url(img/Кнопка.png) no-repeat;
+}
+#Left li a 
+{
+	display: block;
+	width: 150px;
+	height: 40px;
+	color: white;
+	text-decoration: none;
+}
+#Left li:hover ul 
+{
+	display: block;
+}
+#Left li:hover
+{
+	background: url(img/Кнопка1.png) no-repeat;
+}
